@@ -1424,3 +1424,16 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.normal-bullet {
+    list-style: disc !important;
+    /* Ensures default bullet points */
+    padding-left: 20px !important;
+    /* Adjust indentation */
+    margin: 0 !important;
+}
+
+.normal-bullet li::before {
+    content: none !important;
+    /* Removes any custom icons */
+}
