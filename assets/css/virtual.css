@@ -1437,3 +1437,11 @@ a:hover, a:active {
     content: none !important;
     /* Removes any custom icons */
 }
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: #D3D3D3;
+    width: 100%;
+    /* Ensures the line stays within the div */
+}
