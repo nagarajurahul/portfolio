@@ -1462,3 +1462,7 @@ a:hover, a:active {
     /* Removes underline */
     font-weight: bold;
 }
+
+.a-custom:hover {
+    color:#EF3724;
+}
