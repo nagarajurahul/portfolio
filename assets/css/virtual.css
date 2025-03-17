@@ -1445,3 +1445,11 @@ a:hover, a:active {
     width: 100%;
     /* Ensures the line stays within the div */
 }
+
+.a-custom {
+    color: #EF3724;
+    /* Default link color */
+    text-decoration: none;
+    /* Removes underline */
+    font-weight: bold;
+}
