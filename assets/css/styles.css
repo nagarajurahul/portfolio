@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .normal-bullet {
     list-style: disc !important;
     /* Ensures default bullet points */
